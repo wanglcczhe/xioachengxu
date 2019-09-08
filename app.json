@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/mine/login/login",
+    "pages/mine/mine/mine",
+    "pages/welfare/welfare",
+    "pages/group/group",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#399",
+    "navigationBarTitleText": "鲜淘",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff9157",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/asset/img/home.png",
+        "selectedIconPath": "/asset/img/home-tive.png"
+      },
+      {
+        "pagePath": "pages/group/group",
+        "text": "参团",
+        "iconPath": "/asset/img/group.png",
+        "selectedIconPath": "/asset/img/group-tive.png"
+      },
+      {
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利",
+        "iconPath": "/asset/img/welfare.png",
+        "selectedIconPath": "/asset/img/welfare-tive.png"
+      },
+      {
+        "pagePath": "pages/mine/mine/mine",
+        "text": "我的",
+        "iconPath": "/asset/img/mine.png",
+        "selectedIconPath": "/asset/img/mine-tive.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

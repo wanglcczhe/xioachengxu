@@ -1,0 +1,102 @@
+/**index.wxss**/
+/* @import '../../components/modal/modal.wxss'; */
+
+.content .nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  box-sizing: border-box;
+  height: 80rpx;
+  line-height: 45rpx;
+  align-items: center;
+  background: white;
+}
+.content .nav .nav-left{
+  width: 88%;
+  height: 100%;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content .nav .nav-left .nav-left-category{
+  display: flex;
+  width: 150%; 
+  height: 100%;
+}
+.content .nav .nav-left .nav-left-category view{
+  display: flex;
+  float:left;
+  padding: 0 20rpx;
+}
+.iCon-arrow{
+  margin-right: 0rpx;
+  height:30rpx;
+  width:40rpx;
+  background: url('http://120.55.165.193:3000/upload/index/back@2x.png') no-repeat;
+  background-size:contain;
+}
+.slide-image{
+  width:100%;
+}
+/*列表*/
+.list{
+  width:100%;
+  padding: 15rpx 15rpx;
+  background: #f0eff5;
+}
+.list .container-goods{
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.list .container-goods:last-child{
+  margin-bottom: 0;
+}
+.list .container-goods image{
+  margin: 0;
+  height: 300rpx;
+}
+.list .container-goods .main-goods{
+  padding: 28rpx 30rpx 30rpx;
+}
+.list .container-goods .main-goods .main-goods-info{
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+.list .container-goods .main-goods .main-goods-info view text{
+  color: #ff9157;
+}
+.list .container-goods .main-goods .main-goods-info view:first-of-type{
+  border: 1px solid #ff9157;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+.list .container-goods .main-goods .main-goods-info view:nth-of-type(2){
+  text-align: left;
+  flex-grow: 2;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.list .container-goods .main-goods .main-goods-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+.list .container-goods .main-goods .main-goods-price view:nth-of-type(2){
+  text-align: left;
+  flex-grow: 2;
+  padding-left: 5rpx;
+  box-sizing: border-box;
+  text-decoration: line-through;
+}
+.list .container-goods .main-goods .main-goods-price view:last-child{
+  border: 1px solid #ff9157;
+  padding: 6rpx;
+  box-sizing: border-box;
+  background: #ff9157;
+  color: #fff;
+  margin-left: 5rpx;
+}
